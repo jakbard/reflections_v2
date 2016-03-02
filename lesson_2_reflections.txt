@@ -1,2 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Merge compares the files and combines them by keeping the most logical updates by comparing the following inputs:
+	1)	Original file, 
+	2)	Copy of one branch
+	3)	Copy of second branch
+
+	Finally outputs one version of the updated file. Diagram helps understand what commits are accessible before and after the merge.
