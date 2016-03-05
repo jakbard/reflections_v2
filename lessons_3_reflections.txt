@@ -1,2 +1,9 @@
 When would you be want to create a remote repository rather than keeping all your work local?
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks is like cloning repositories directly on git hub website.
+CLones makes a copy of the github repository on your local machine.
+Branches are a different version of the master which may have branched out due to sevreral reasons like a different mode of the game, modified version of the master etc.
+What is the benefit of having a copy of the last known state of the remote stored locally?
+So that any new commits on the local can be higlighted by the message that the local master is ahead of the origin master.
+Additonally if there are further commints to the girthub master, fetch can update the origin master first instead fo local master and any changes can be viewed using got diff before merging master with origin/master.
