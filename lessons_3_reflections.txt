@@ -7,3 +7,5 @@ Branches are a different version of the master which may have branched out due t
 What is the benefit of having a copy of the last known state of the remote stored locally?
 So that any new commits on the local can be higlighted by the message that the local master is ahead of the origin master.
 Additonally if there are further commints to the girthub master, fetch can update the origin master first instead fo local master and any changes can be viewed using got diff before merging master with origin/master.
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Use available optiopns like drop box, sharepoint, google drive. However these options may have version control but do not offer merge options.
